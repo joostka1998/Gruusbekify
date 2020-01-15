@@ -1,0 +1,41 @@
+#loginbody {
+
+  /* Background image */
+  background-image: url('/assets/background.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  size: 100px;
+}
+
+#useGruusbekify {
+  background-color: #1DB954;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 500px;
+  padding-top: 16px;
+  padding-right: 48px;
+  padding-bottom: 18px;
+  padding-left: 48px;
+}
+
+.center {
+  text-align: center;
+}

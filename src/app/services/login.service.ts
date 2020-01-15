@@ -17,4 +17,8 @@ export class LoginService {
   login() {
     this.loggedin = true;
   }
+
+  isUserLoggedIn() {
+    return (this.loggedin);
+  }
 }
