@@ -1,9 +1,9 @@
 <div class="header">
-  <a (click)="logoButton()" class="logo">Gruusbekify</a>
+  <a (click)="logoButtonClick()" class="logo">Gruusbekify</a>
   <div class="header-right">
     <a (click)="contactButtonClick()">Contact</a>
     <a (click)="overButtonClick()">Over</a>
-    <a *ngIf="isUserLoggedIn" (click)="loginButtonClick()">Aanmelden</a>
-    <a *ngIf="!isUserLoggedIn" (click)="logoutButtonClick()">Afmelden</a>
+    <a *ngIf="!isUserLoggedIn" (click)="loginButtonClick()">Aanmelden</a>
+    <a *ngIf="isUserLoggedIn" (click)="logoutButtonClick()">Afmelden</a>
   </div>
 </div>

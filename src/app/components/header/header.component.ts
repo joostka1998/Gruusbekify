@@ -30,4 +30,16 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['login']);
   }
 
+  logoButtonClick(){
+    console.log('Logo Click');
+  }
+
+  contactButtonClick(){
+    console.log('Contact Click');
+  }
+
+  overButtonClick(){
+    console.log('Over Click');
+  }
+
 }
