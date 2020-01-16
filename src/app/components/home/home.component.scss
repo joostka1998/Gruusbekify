@@ -12,3 +12,26 @@ p {
   color: #FFFFFF;
   text-align: center;
 }
+
+.maincontainer {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+a:hover {
+  cursor: pointer;
+}
