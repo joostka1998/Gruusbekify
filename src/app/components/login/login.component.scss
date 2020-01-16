@@ -35,6 +35,11 @@ h1 {
   padding-bottom: 18px;
   padding-left: 48px;
   cursor: pointer;
+  transition: background-color 200ms linear
+}
+
+#useGruusbekify:hover {
+  background-color: #4bdf80;
 }
 
 .center {

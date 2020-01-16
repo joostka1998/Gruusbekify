@@ -1,8 +1,7 @@
 <div id="homebody">
   <br/><br/><br/><br/><br/><br/>
   <div id="maincontainer">
-    <p>audioplayer</p>
-    <audio src="https://gruusbek.nl/wp-content/uploads/2019/12/CV_Now_Da_Wer-_-_Mot_Now_Van_Huus-Gruusbek.nl_.mp3" controls id="audioPlayer">
+    <audio controls id="audioPlayer">
       Your browser does not support this.
     </audio>
 
@@ -10,6 +9,9 @@
     <a (click)="playlist_togglePlayPause()">Play/Pause</a><br/>
     <a (click)="playlist_prevTrack()">Prev Track</a><br/>
     <a (click)="playlist_nextTrack()">Next Track</a><br/>
-    <a (click)="playlist_toggleShuffle()">Shuffle</a><br/>
+    <!--<a (click)="playlist_toggleShuffle()">Shuffle</a><br/>-->
+<ul>
+  <li *ngFor="let schlager of list">{{schlager.title}} Door: {{schlager.artist}}</li>
+</ul>
   </div>
 </div>
