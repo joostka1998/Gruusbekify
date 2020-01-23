@@ -46,16 +46,16 @@ export class AppComponent implements OnInit {
   login() {
 
     window['FB'].login((response) => {
-      console.log('login response', response);
       if (response.authResponse) {
 
         window['FB'].api('/me', {
           fields: 'last_name, first_name'
         }, (userInfo) => {
-
-          console.log('user information');
           console.log(userInfo);
         });
+
+        console.log(response.authResponse.accessToken);
+        console.log(response.authResponse.userID);
 
       } else {
         console.log('User login failed');
