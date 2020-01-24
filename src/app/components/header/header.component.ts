@@ -20,25 +20,25 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  loginButtonClick() {
-    this.loginService.login();
-    this.router.navigate(['home']);
-  }
+  // loginButtonClick() {
+  //   this.loginService.login();
+  //   this.router.navigate(['home']);
+  // }
+  //
+  // logoutButtonClick() {
+  //   this.loginService.logout();
+  //   this.router.navigate(['login']);
+  // }
 
-  logoutButtonClick() {
-    this.loginService.logout();
-    this.router.navigate(['login']);
-  }
-
-  logoButtonClick(){
+  logoButtonClick() {
     console.log('Logo Click');
   }
 
-  contactButtonClick(){
+  contactButtonClick() {
     console.log('Contact Click');
   }
 
-  overButtonClick(){
+  overButtonClick() {
     console.log('Over Click');
   }
 

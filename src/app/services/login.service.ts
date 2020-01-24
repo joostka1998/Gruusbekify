@@ -5,6 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class LoginService {
   loggedin;
+  userID;
+  accessToken;
+  firstName;
+  lastName;
 
   constructor() {
     this.loggedin = false;
@@ -14,8 +18,13 @@ export class LoginService {
     this.loggedin = false;
   }
 
-  login() {
+  login(userID: string, accessToken: string, firstName: string, lastName: string) {
+    this.userID = userID;
+    this.accessToken = accessToken;
+    this.firstName = firstName;
+    this.lastName = lastName;
     this.loggedin = true;
+    console.log(this.userID + '   token: '+ this.accessToken);
   }
 
   isUserLoggedIn() {
