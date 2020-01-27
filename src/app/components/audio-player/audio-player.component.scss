@@ -1,0 +1,15 @@
+.audioPlayerFooter {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 20%;
+  overflow: hidden;
+  background: rgba(black, 0.5);
+  padding: 20px 10px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#audioPlayer {
+  display: none;
+}

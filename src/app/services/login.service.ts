@@ -14,17 +14,13 @@ export class LoginService {
     this.loggedin = false;
   }
 
-  logout() {
-    this.loggedin = false;
-  }
-
   login(userID: string, accessToken: string, firstName: string, lastName: string) {
     this.userID = userID;
     this.accessToken = accessToken;
     this.firstName = firstName;
     this.lastName = lastName;
     this.loggedin = true;
-    console.log(this.userID + '   token: '+ this.accessToken);
+    console.log('UserID: ' + this.userID + '\n Token: ' + this.accessToken);
   }
 
   isUserLoggedIn() {

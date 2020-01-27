@@ -35,6 +35,8 @@ export class HeaderComponent implements OnInit {
   }
 
   contactButtonClick() {
+    this.loginService.login('1458063457692850', 'EAAH0VA1kwqwBAA8mJ2UZBhraRSz1M0i9sjaZALiZAWlYZBViyaFNNxDxj03Ay72ZC1kwftHXooiTXLrl51BQJb7CffdEkbdeDAZB5NhfHJkamNmZCmaZCe3QcU2hgh46tr7wqd0pAPZAXmOo3DNprObWS3qyNqDYjUYw9xNi3Q4eShZCIPbHOjV7qqAs1IgzOtMo6XlZBwEZBJhaUwZDZD', 'Joost', 'Kaal');
+    this.router.navigate(['home']);
     console.log('Contact Click');
   }
 
